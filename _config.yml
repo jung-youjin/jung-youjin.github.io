@@ -1,7 +1,7 @@
 # Setup
 title:               JXNVCE ALGO-LOG
 tagline:             'YouJin Jung'
-description:         'Archive of Janice's Algorithm Practices'
+description:         'Archive of Janice Algorithm Practices'
 baseurl:             ''
 paginate:            5
 permalink:           pretty
