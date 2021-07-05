@@ -4,4 +4,6 @@
 ![image](https://user-images.githubusercontent.com/37402072/124304666-fc59ee80-db9e-11eb-8df8-6d2215c9e592.png)
 #### boj-11399
 ![image](https://user-images.githubusercontent.com/37402072/124357213-47ced400-dc55-11eb-9b85-77dc10831497.png)
+#### boj-10773
+![image](https://user-images.githubusercontent.com/37402072/124495709-69fe5880-ddf3-11eb-8171-60981b632dba.png)
 
