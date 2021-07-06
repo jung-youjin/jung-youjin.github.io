@@ -6,4 +6,7 @@
 ![image](https://user-images.githubusercontent.com/37402072/124357213-47ced400-dc55-11eb-9b85-77dc10831497.png)
 #### boj-10773
 ![image](https://user-images.githubusercontent.com/37402072/124495709-69fe5880-ddf3-11eb-8171-60981b632dba.png)
+#### boj-2630
+![image](https://user-images.githubusercontent.com/37402072/124637747-178d6c80-dec5-11eb-8a01-c37d49ec8c93.png)
+
 
