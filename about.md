@@ -3,8 +3,7 @@ layout: page
 title: About
 ---
 
-<a img src="https://user-images.githubusercontent.com/37402072/124953068-c493f080-e04f-11eb-99fb-33366bb093d9.png">
-</a>
+![jxnvce](https://user-images.githubusercontent.com/37402072/124953068-c493f080-e04f-11eb-99fb-33366bb093d9.png)
 
 <p class="message">
   JXNVCE ALGO-LOG! 
