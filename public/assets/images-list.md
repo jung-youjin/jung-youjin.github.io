@@ -16,4 +16,6 @@
 ![image](https://user-images.githubusercontent.com/37402072/125646574-a4383673-1d90-404d-842b-248db6d851bd.png)
 #### scpc-practice-round1
 ![image](https://user-images.githubusercontent.com/37402072/126030166-058528a0-d6e0-493b-acbe-821106e9d978.png)
+#### boj-2225
+![image](https://user-images.githubusercontent.com/37402072/126193497-e84a7cc0-4cae-4d8f-9aab-1647b55425eb.png)
 
