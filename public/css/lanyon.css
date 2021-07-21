@@ -304,6 +304,7 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
+  font-family: 'Noto Sans KR', sans-serif;
   margin-bottom: 4em;
 }
 
@@ -328,6 +329,7 @@ a.sidebar-nav-item:focus {
 
 /* Related posts */
 .related {
+  font-family: 'Noto Sans KR', sans-serif;
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
