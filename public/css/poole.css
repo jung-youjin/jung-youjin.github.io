@@ -105,6 +105,7 @@ h4, h5, h6 {
 
 /* Body text */
 p {
+  font-family: 'Noto Sans KR', sans-serif;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -330,6 +331,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
+  font-family: 'Noto Sans KR', sans-serif;
   margin-bottom: 4em;
 }
 
@@ -354,6 +356,7 @@ tbody tr:nth-child(odd) th {
 
 /* Related posts */
 .related {
+  font-family: 'Noto Sans KR', sans-serif;
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
