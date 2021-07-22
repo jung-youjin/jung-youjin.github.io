@@ -20,3 +20,5 @@
 ![image](https://user-images.githubusercontent.com/37402072/126193497-e84a7cc0-4cae-4d8f-9aab-1647b55425eb.png)
 #### boj-1010
 ![image](https://user-images.githubusercontent.com/37402072/126525485-dbcbead1-1f8f-4960-b5c9-db3a1b9a922c.png)
+#### boj-12865
+![image](https://user-images.githubusercontent.com/37402072/126675108-f5a739c6-710f-4fc0-926f-93fb75c308eb.png)
