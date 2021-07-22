@@ -41,7 +41,7 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -304,6 +304,7 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
+  font-family: 'Noto Sans KR', sans-serif;
   margin-bottom: 4em;
 }
 
@@ -328,6 +329,7 @@ a.sidebar-nav-item:focus {
 
 /* Related posts */
 .related {
+  font-family: 'Noto Sans KR', sans-serif;
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
@@ -363,7 +365,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #ccc;
   text-align: center;
 }
