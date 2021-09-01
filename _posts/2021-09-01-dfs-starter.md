@@ -6,6 +6,7 @@ title: DFS-starter
 `DFS`가 헷갈려서 시작 단계 예제 코드로 공부해보기 - 출처 [Geeks for Geeks](https://geeksforgeeks.org)
 
 1.
+
 ``` cpp
 // C++ program to print DFS traversal from
 // a given vertex in a  given graph
@@ -67,13 +68,15 @@ int main()
     return 0;
 }
 ```
+
 Output
+
 > Following is Depth First Traversal (starting from vertex 2)
 > 2 0 1 3
 
 2. Disconnected graph까지
-``` cpp
 
+``` cpp
 // C++ program to print DFS
 // traversal for a given given
 // graph
@@ -144,5 +147,6 @@ int main()
 ```
 
 Output
+
 > Following is Depth First Traversal
 > 0 1 2 3 9
