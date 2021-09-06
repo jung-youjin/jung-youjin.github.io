@@ -1,14 +1,8 @@
 ---
 layout: page
 title: Contents
-toc: true
 ---
 
 <div>
-  <div id="table-of-contents">
-    {% toc %}
-  </div>
-  <div id="markdown-content">
-    {{ content }}
-  </div>
+    <p>Test</p>
 </div>
