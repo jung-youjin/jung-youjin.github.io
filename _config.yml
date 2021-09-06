@@ -20,3 +20,8 @@ plugins:
 # Custom vars
 version:             1.0.0
 google_analytics_id: 277822921
+
+toc:
+  ordered_list: true
+  list_class: my-list-class
+  sublist_class: my-sublist-class
