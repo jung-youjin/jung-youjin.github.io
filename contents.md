@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contents
-toc: true
 ---
+{% include toc.html html=content %}
 
 <div>
   <div id="table-of-contents">
