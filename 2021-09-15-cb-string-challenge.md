@@ -12,6 +12,30 @@ title: CODERBYTE STRING CHALLENGE
 #include <sstream>
 using namespace std;
 
+int getQNum(queue<pair<string, int>> q) {
+  int qsize = q.size();
+  int num = q.front().second;
+  for (int i=qsize; i>0; i--) {
+    int dnum = q.front().second * pow(10, i-1);
+    q.pop();
+    if (q.empty()) break;
+    num = dnum + q.front().second;
+  }
+  return num;
+}
+
+int getNqNum(queue<int> nq) {
+  int num = nq.front();
+  int size = nq.size();
+  for (int i=size; i>0; i--) {
+    int dnum = nq.front() * pow(10, i-1);
+    nq.pop();
+    if (nq.empty()) break;
+    num = dnum + nq.front();
+  }
+  return num;
+}
+
 int NumDigits(int x) {  
     x = abs(x);  
     return (x < 10 ? 1 :   
@@ -26,7 +50,7 @@ int NumDigits(int x) {
         10)))))))));  
 }
 
-string StringChallenge(string str) {
+void StringChallenge(string str) {
   queue<pair<string, int>> q;
   queue<int> nq;
   string listNum[12] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "plus", "minus"};
@@ -45,52 +69,43 @@ string StringChallenge(string str) {
     }
   }
   while (!q.empty()) {
-    // int num1 = q.front().second;
-    // while (!(q.front().second==10 || q.front().second==11)) {
-    //   cout << q.front().second << endl;
-    //  q.pop();
-    // }
-    nq.push(q.front().second);
-    q.pop();
-    if (q.front().second == 10 || q.front().second == 11) {
-      int size = nq.size();
-      for (int i=0; i<size; i++) {
-        num = nq.front() * pow(10, (nq.size()-1));
-        cout << "power " << pow(10, nq.size()-1) << endl;
-        nq.pop();
-        num = num + nq.front();
-      }
-      cout << "num" << " " << num << endl;
+    if (q.front().second == 10 || q.front().second == 11) {   
+      num = getNqNum(nq);
       if (q.front().second == 10) {
         q.pop();
-        resultNum = num + q.front().second;
-        cout << resultNum << endl;
+        int temp = getQNum(q);
+        resultNum = num + temp;
       }
       else {
         q.pop();
-        resultNum = num - q.front().second;
-        cout << resultNum << endl;
+        int temp = getQNum(q);
+        resultNum = num - temp;
       }
     }
+    else {
+      nq.push(q.front().second);
+    }
+    q.pop();
   }
+
   int digit = NumDigits(resultNum);
   word = "";
   ostringstream os;
   os << resultNum;
   string digits = os.str();
-  cout << digits << endl;
-
-  
-  
-  // code goes here  
-  return str;
-
+  if (digits[0]=='-') digit++;
+  for (int i=0; i<digit; i++) {
+    if (digits[i]=='-') cout << "negative";
+    else {
+      int s = stoi(string(1, digits[i]));
+      cout << listNum[s];
+    }
+  }
 }
 
 int main(void) { 
-   
   // keep this function call here
-  cout << StringChallenge(coderbyteInternalStdinFunction(stdin));
+  StringChallenge(coderbyteInternalStdinFunction(stdin));
   return 0;
     
 }
