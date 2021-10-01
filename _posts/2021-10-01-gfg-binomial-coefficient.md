@@ -48,7 +48,10 @@ int main() {
 }
 ```
 
-First day of internship!🐻
+### P.S.
+**10/1** It is my **First day of internship!🐻**
+> Below memes show my emotions today
+---
 
 ![yay](https://c.tenor.com/DAEpv02_u8EAAAAC/first-day-jonah-hill.gif)
 
