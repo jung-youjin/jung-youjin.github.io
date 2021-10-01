@@ -49,5 +49,11 @@ int main() {
 ```
 
 First day of internship!🐻
+
+![yay](https://c.tenor.com/DAEpv02_u8EAAAAC/first-day-jonah-hill.gif)
+
+![yay](https://i.imgur.com/ICmJCIY.gif)
+
 ![yay](https://c.tenor.com/YwnmxTFUkkIAAAAM/internship-intern.gif)
+
 ![yay](https://qrter.com/assets/Uploads/gif-1.gif)
