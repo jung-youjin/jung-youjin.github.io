@@ -40,3 +40,4 @@ int main() {
     cout << countFriendsPairings(n) << endl;
     return 0;
 }
+```
