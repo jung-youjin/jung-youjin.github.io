@@ -3,6 +3,8 @@ layout: post
 title: CHECK PALINDROME
 ---
 
+`palindrome` 은 역순으로 읽었을 때도 똑같은 의미를 지닌다는 것이다. 영단어로 예를들면 eye, deed 등의 단어가 있을거다!
+
 ``` cpp
 #include<iostream>
 using namespace std;
@@ -12,7 +14,7 @@ bool isKthBitSet(unsigned int x, unsigned int k) {
 }
  
 bool isPalindrome(unsigned int x) {
-    int l = 1; // Initialize left position
+    int l = 1;
     int r = sizeof(unsigned int) * 8;
     while (l < r) {
         if (isKthBitSet(x, l) != isKthBitSet(x, r))
