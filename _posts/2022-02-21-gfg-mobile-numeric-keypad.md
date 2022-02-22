@@ -47,10 +47,10 @@ int getCount(char keypad[][3], int n) {
 }
 
 int main(){
-   char keypad[4][3] = {{'1','2','3'},
+   /*char keypad[4][3] = [{'1','2','3'},
                         {'4','5','6'},
                         {'7','8','9'},
-                        {'*','0','#'}};
+                        {'*','0','#'}];*/
    printf("Count for numbers of length %d: %dn", 1, getCount(keypad, 1));
    printf("Count for numbers of length %d: %dn", 2, getCount(keypad, 2));
    printf("Count for numbers of length %d: %dn", 3, getCount(keypad, 3));
