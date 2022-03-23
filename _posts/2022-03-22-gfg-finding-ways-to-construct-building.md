@@ -3,7 +3,7 @@ layout: post
 title: GFG FINDING NUMBER OF WAYS TO CONSTRUCT BUILDING
 ---
 
-> modify for deploy fix
+> modify for deploy fix x2
 
 ```
 Let countB(i) be count of possible ways with i sections
