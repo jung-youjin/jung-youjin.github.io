@@ -3,6 +3,8 @@ layout: post
 title: GFG INSTANCE OF 8 PUZZLES SOLVABLE
 ---
 
+> modify for deploy fix
+
 ``` cpp
 #include <iostream>
 
