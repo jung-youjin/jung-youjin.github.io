@@ -23,9 +23,9 @@ bool isSolvable(int puzzle[3][3]) {
 }
  
 int main() {
-  int puzzle[3][3] =  {{1, 8, 2},
+  int puzzle[3][3] =  [{1, 8, 2},
                       {0, 4, 3},  // Value 0 is used for empty space
-                      {7, 6, 5}};
+                      {7, 6, 5}];
   isSolvable(puzzle)? cout << "Solvable" : cout << "Not Solvable";
   return 0;
 }
