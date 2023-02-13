@@ -28,3 +28,4 @@ int main() {
     printNGE(arr, n);
     return 0;
 }
+```
